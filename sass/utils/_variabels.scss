@@ -1,0 +1,54 @@
+// Загальні перемінні
+$text-color: #212121;
+$hover-color: #2196f3;
+$second-color: #757575;
+$background-color: #2f303a;
+$wait: #ffffff;
+$buttom-color: #f5f4fa;
+$icon-color: #afb1b8;
+$border-color: #eeeeee;
+
+// Шаблони для всього документу place-holder
+ul {
+  padding: 0;
+  margin: 0px;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+p,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "Roboto";
+  color: $text-color;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  // MOBILE
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  // TABLET
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  // SCREEN
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
