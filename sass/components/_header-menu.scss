@@ -1,0 +1,95 @@
+// загальний контейнер
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: $wait;
+
+  transform: translateX(100%);
+
+  padding-left: 40px;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-cross {
+  position: absolute;
+  top: 21px;
+  right: 25px;
+
+  &:hover,
+  &:focus {
+    fill: $hover-color;
+  }
+}
+
+// Навігація по сторінками
+.menu-pages {
+  margin-top: 48px;
+  margin-bottom: 302px;
+}
+
+.menu__item:not(last-child) {
+  margin-bottom: 32px;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  color: $text-color;
+}
+
+.menu-active {
+  color: $hover-color;
+}
+
+// контейнер з контактами
+.menu-contacts {
+  margin-bottom: 36px;
+}
+.link__tel {
+  font-size: 34px;
+  line-height: 1.17;
+
+  letter-spacing: 0.02em;
+
+  color: $hover-color;
+
+  margin-bottom: 32px;
+}
+
+.link__tel {
+  margin-bottom: 32px;
+}
+
+.link__email {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+
+  color: $second-color;
+}
+
+//Контейнер з соціальними мережами
+.menu-social {
+  display: flex;
+}
+
+.social__item {
+  padding-right: 10px;
+  &:not(:first-child) {
+    padding-left: 10px;
+    border-left: 1px solid $second-color;
+  }
+}
+
+.social__link {
+  color: $hover-color;
+}
