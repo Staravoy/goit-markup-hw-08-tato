@@ -1,0 +1,112 @@
+.baner {
+  background: $background-color;
+  text-align: center;
+
+  //   for mobil device
+  @media screen and (max-width: 767px) {
+    width: 480px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/index/ad_baner/baner_480.png");
+    // Правило для ретіни
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      .baner {
+        background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url("../images/index/ad_baner/baner_480_x.png");
+      }
+    }
+  }
+
+  // for tablet
+  @media screen and (min-width: 767px) and (max-width: 1199px) {
+    width: 768px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/index/ad_baner/baner_768.png");
+    // Правило для ретіни
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      .baner {
+        background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url("../images/index/ad_baner/baner_768_x.png");
+      }
+    }
+  }
+  // for desctop
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/index/baner_svg.svg");
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
+.baner-container {
+  justify-content: center;
+}
+
+.baner-title {
+  @media screen and (max-width: 1200px) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  margin-bottom: 30px;
+
+  color: $wait;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.baner-button {
+  width: 200px;
+  height: 50px;
+
+  font-family: roboto;
+  background: $hover-color;
+  color: $wait;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
