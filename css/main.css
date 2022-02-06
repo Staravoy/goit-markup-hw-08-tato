@@ -362,6 +362,7 @@ body {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    background-repeat: no-repeat;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/index/ad_baner/baner_480.png");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/ad_baner/baner_480.png");
   }
@@ -671,5 +672,105 @@ textarea:focus {
   display: inline-block;
   width: 12px;
   height: 12px;
+}
+
+.none {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .skills-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skills-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .skills-item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skills-item + .skills-item {
+    margin-left: 30px;
+  }
+}
+
+.skills-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-title {
+    text-align: center;
+  }
+}
+
+.skills-text {
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.skills-img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-img {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .skills-img {
+    width: 354px;
+  }
+}
+
+.s-item {
+  border-radius: 4px;
+  width: 70px;
+  height: 70px;
 }
 /*# sourceMappingURL=main.css.map */

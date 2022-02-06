@@ -1,10 +1,12 @@
 // Загальні перемінні
-@import "./utils/_variabels";
+@import "./utils/variabels";
 // шапака сайту
-@import "./components/header";
+@import "./components/ad_header";
 // HEADER MENU
 @import "./components/header-menu";
 // BANER
 @import "./components/ad-baner";
 // MODAL-ка
 @import "./components/modal";
+// SKILLS
+@import "./components/ad-skills";
