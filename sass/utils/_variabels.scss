@@ -35,10 +35,9 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  // padding: 15px;
   // MOBILE
-  @media screen and (min-width: 480px) {
-    width: 480px;
+  @media screen and (max-width: 480px) {
+    width: 100vw;
   }
   // TABLET
   @media screen and (min-width: 768px) {
