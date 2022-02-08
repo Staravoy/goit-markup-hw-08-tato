@@ -31,7 +31,6 @@
 // Навігація по сторінками
 .menu-pages {
   margin-top: 48px;
-  margin-bottom: 302px;
 }
 
 .menu__item:not(last-child) {
@@ -51,6 +50,7 @@
 
 // контейнер з контактами
 .menu-contacts {
+  margin-top: 50%;
   margin-bottom: 36px;
 }
 .link__tel {

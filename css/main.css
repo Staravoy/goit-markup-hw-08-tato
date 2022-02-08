@@ -28,13 +28,17 @@ body {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 100vw;
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .container {
     width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -56,15 +60,9 @@ body {
 @media screen and (max-width: 768px) {
   .header {
     width: 480px;
-    height: 60px;
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-.nav {
-  padding-left: 5px;
-  padding-right: 4px;
 }
 
 @media screen and (min-width: 768px) {
@@ -95,7 +93,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .logo {
-    padding: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 
@@ -125,7 +124,6 @@ body {
   width: 40px;
   height: 40px;
   background: #ffffff;
-  margin-right: 5px;
 }
 
 .menu-toggle:hover, .menu-toggle:focus {
@@ -153,6 +151,12 @@ body {
 @media screen and (max-width: 768px) {
   .contact-menu {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .contact-menu {
+    width: 768px;
   }
 }
 
@@ -205,7 +209,7 @@ body {
 
 @media screen and (max-width: 1199px) {
   .contacts {
-    margin-left: 84px;
+    margin-left: auto;
   }
 }
 
@@ -226,6 +230,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .contacts > .item {
+    margin-left: 0px;
+  }
 }
 
 .contacts-contact {
@@ -301,7 +311,6 @@ body {
 
 .menu-pages {
   margin-top: 48px;
-  margin-bottom: 302px;
 }
 
 .menu__item:not(last-child) {
@@ -320,6 +329,7 @@ body {
 }
 
 .menu-contacts {
+  margin-top: 50%;
   margin-bottom: 36px;
 }
 
@@ -714,6 +724,13 @@ textarea:focus {
   }
 }
 
+@media screen and (max-wedth: 768px) {
+  .skills-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .skills-item {
     width: 50%;
@@ -752,9 +769,9 @@ textarea:focus {
 }
 
 .skills-img {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -770,6 +787,8 @@ textarea:focus {
 @media screen and (max-width: 768px) {
   .skills-img {
     width: 450px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 

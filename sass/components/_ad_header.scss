@@ -1,7 +1,7 @@
 .header {
   @media screen and (max-width: 768px) {
     width: 480px;
-    height: 60px;
+    // height: 60px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -15,17 +15,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-
-  @media screen and (min-width: 1200px) {
-    // margin-left: 93px;
-  }
-  padding-left: 5px;
-  padding-right: 4px;
 }
 
 .logo {
   @media screen and (max-width: 768px) {
-    padding: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   padding: 25px 0;
@@ -63,7 +58,7 @@
   width: 40px;
   height: 40px;
   background: $wait;
-  margin-right: 5px;
+  // margin-right: 5px;
 
   &:hover,
   &:focus {
@@ -78,6 +73,10 @@
 .contact-menu {
   @media screen and (max-width: 768px) {
     display: none;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    width: 768px;
   }
   display: flex;
   justify-content: space-between;
@@ -132,7 +131,7 @@
 
 .contacts {
   @media screen and (max-width: 1199px) {
-    margin-left: 84px;
+    margin-left: auto;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -143,6 +142,9 @@
 .contacts > .item {
   display: flex;
   align-items: center;
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    margin-left: 0px;
+  }
   margin-left: 30px;
 }
 
