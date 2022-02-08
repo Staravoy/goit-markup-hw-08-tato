@@ -54,6 +54,10 @@ body {
 }
 
 .section {
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   padding-top: 94px;
   padding-bottom: 94px;
 }

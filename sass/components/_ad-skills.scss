@@ -10,6 +10,12 @@
 }
 
 .skills-list {
+  @media screen and (max-width: 768px) {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
@@ -21,10 +27,7 @@
 }
 
 .skills-item {
-  @media screen and (max-wedth: 768px) {
-    margin-left: auto;
-    margin-right: auto;
-  }
+  margin-bottom: 30px;
 
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     width: 50%;
@@ -40,6 +43,7 @@
 .skills-title {
   @media screen and (max-width: 768px) {
     text-align: center;
+    margin-top: 30px;
   }
   margin-bottom: 10px;
   font-weight: 700;
@@ -61,13 +65,12 @@
 }
 
 .skills-img {
-  // display: inline-flex;
   display: flex;
   align-items: center;
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    width: 450px;
+    width: 480px;
     margin-right: auto;
     margin-left: auto;
   }
