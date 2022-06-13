@@ -4,6 +4,31 @@ ul {
   list-style-type: none;
 }
 
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  main {
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    width: 1200px;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -19,6 +44,18 @@ button {
 body {
   font-family: "Roboto";
   color: #212121;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .container {
@@ -45,18 +82,6 @@ body {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-  }
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-@media screen and (max-width: 768px) {
-  .section {
-    padding-top: 30px;
-    padding-bottom: 30px;
   }
 }
 
@@ -131,6 +156,7 @@ body {
   width: 40px;
   height: 40px;
   background: #ffffff;
+  margin-right: 5px;
 }
 
 .menu-toggle:hover, .menu-toggle:focus {
@@ -878,8 +904,6 @@ img {
 }
 
 .we {
-  margin-left: auto;
-  margin-right: auto;
   background: #f5f4fa;
 }
 
@@ -889,6 +913,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
+  background: #f5f4fa;
   margin-bottom: 50px;
 }
 
@@ -897,6 +922,7 @@ img {
     font-size: 28px;
     line-height: 33px;
     margin-bottom: 30px;
+    background: #f5f4fa;
   }
 }
 

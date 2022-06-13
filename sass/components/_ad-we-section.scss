@@ -1,6 +1,4 @@
 .we {
-  margin-left: auto;
-  margin-right: auto;
   background: $buttom-color;
 }
 
@@ -9,13 +7,14 @@
     font-size: 28px;
     line-height: 33px;
     margin-bottom: 30px;
+    background: $buttom-color;
   }
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
-
+background: $buttom-color;
   margin-bottom: 50px;
 }
 
@@ -41,7 +40,6 @@
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     flex-basis: calc((100% - 4 * 30px) / 2);
     margin: 30px;
-    w
   }
 
 
