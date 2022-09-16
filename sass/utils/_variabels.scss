@@ -10,30 +10,17 @@ $border-color: #eeeeee;
 
 
 // Шаблони для всього документу place-holder
+// * {
+//   box-sizing: border-box;
+// }
+
+
 ul {
   padding: 0;
   margin: 0px;
   list-style-type: none;
 }
 
-main {
-  margin-left: auto;
-  margin-right: auto;
-  // MOBILE
-  @media screen and (max-width: 480px) {
-    width: 480px;
-  }
-  // TABLET
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
-    width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  // SCREEN
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
-}
 
 h1,
 h2,
@@ -46,6 +33,7 @@ button {
   border: none;
   text-decoration: none;
 }
+
 
 body {
   font-family: "Roboto";
@@ -72,7 +60,7 @@ body {
     padding-right: 15px;
   }
   // TABLET
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 768px;
     padding-left: 15px;
     padding-right: 15px;
