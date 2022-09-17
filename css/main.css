@@ -19,6 +19,8 @@ button {
 body {
   font-family: "Roboto";
   color: #212121;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -41,7 +43,7 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 480px;
     padding-left: 15px;
