@@ -3,9 +3,6 @@
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    @media screen and (min-width: 1200px) {
-      flex-basis: calc((100%-30px)/5);
-    }
 }
 
   .client-title {
