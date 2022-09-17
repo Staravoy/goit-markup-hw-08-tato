@@ -32,9 +32,12 @@ button {
 body {
   font-family: "Roboto";
   color: $text-color;
+ @media screen and (max-width: 768px) {
+  width: 480px;  
+ }
 }
 
-.section {
+section {
   @media screen and (max-width: 768px) {
     padding-top: 30px;
     padding-bottom: 30px;

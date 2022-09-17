@@ -1,10 +1,18 @@
-.header {
-  border-bottom: 1px solid $second-color;
+header {
+  @media screen and (min-width: 1200px) {
+    border-bottom: 1px solid $second-color;
+  }
   @media screen and (max-width: 768px) {
     width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.header {
+  @media screen and (max-width: 1199px) {
+    border-bottom: 1px solid $second-color;
+  } 
 }
 
 .nav {
