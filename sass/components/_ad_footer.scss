@@ -1,21 +1,34 @@
 footer {
     background: $background-color;
-    padding-top: 60px;
-    padding-bottom: 60px;
   }
   
   .footer-blok {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    @media screen and (min-width: 1200px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      @media screen and (min-width: 1200px) {
       display: flex;
     }
   }
 
-  .address {
-    text-align: center;
+  .footer-for-tablet {
+   @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+   }
+
   }
-  
+
+  .address {
+    @media screen and (max-width: 1199px) {
+      text-align: center;
+    }
+    
+  }
+
+  address {
+      margin-top: 20px;
+    }
+
   .footer-logo {
     text-decoration: none;
     color: $wait;
@@ -37,9 +50,7 @@ footer {
     color: $hover-color;
   }
   
-  address {
-    margin-top: 20px;
-  }
+
   
   .address-post {
     font-style: normal;
@@ -75,12 +86,24 @@ footer {
   }
   /* FOOTER - section join */
   .join {
-    margin-top: 60px;
-    text-align: center;
-    // margin-left: 70px;
+    @media screen and (max-width: 767px) {
+      margin-top: 60px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-top: 0px;
+    }
+    @media screen and (min-width: 1200px) {
+      text-align: center;
+    margin-left: 70px;
   }
+    }
+    
   
   .join-title {
+    @media screen and (max-width: 1199px) {
+     text-align: center; 
+    }
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -132,9 +155,15 @@ footer {
   
   /* FOOTER - section subscribe */
   .subscribe {
-    margin-top: 60px;
-    text-align: center;
-    // margin-left: 93px;
+    @media screen and (max-width: 1199px) {
+       text-align: center;
+       margin-top: 60px;
+    }
+   
+    @media screen and (min-width: 1200px) {
+      margin-left: 93px;
+    }
+    
   }
   .subscribe-title {
     font-weight: 700;

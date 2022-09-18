@@ -1069,8 +1069,6 @@ img {
 
 footer {
   background: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-blok {
@@ -1085,8 +1083,24 @@ footer {
   }
 }
 
-.address {
-  text-align: center;
+@media screen and (min-width: 768px) {
+  .footer-for-tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .address {
+    text-align: center;
+  }
+}
+
+address {
+  margin-top: 20px;
 }
 
 .footer-logo {
@@ -1106,10 +1120,6 @@ footer {
 
 .footer-logo-decor {
   color: #2196f3;
-}
-
-address {
-  margin-top: 20px;
 }
 
 .address-post {
@@ -1146,9 +1156,21 @@ address {
 }
 
 /* FOOTER - section join */
-.join {
-  margin-top: 60px;
-  text-align: center;
+@media screen and (max-width: 767px) {
+  .join {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .join {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .join {
+    text-align: center;
+    margin-left: 70px;
+  }
 }
 
 .join-title {
@@ -1159,6 +1181,11 @@ address {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 1199px) {
+  .join-title {
+    text-align: center;
+  }
 }
 
 .join-list {
@@ -1211,9 +1238,16 @@ address {
 }
 
 /* FOOTER - section subscribe */
-.subscribe {
-  margin-top: 60px;
-  text-align: center;
+@media screen and (max-width: 1199px) {
+  .subscribe {
+    text-align: center;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    margin-left: 93px;
+  }
 }
 
 .subscribe-title {
