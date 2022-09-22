@@ -49,6 +49,131 @@
 
     }
 
+    // EXEMPLE
+
+    .exemples-list {
+        @media screen and (max-width: 767px) {
+            margin-top: 40px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            margin-top: 30px;
+            justify-content: space-around;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -30px;
+            margin-top: -30px;
+        }
+        
+      }
+    .exemples-item {
+        @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+            width: 354px;
+        }
+
+        @media screen and (min-width: 1200px) {
+        position: relative;
+        margin-left: 30px;
+        margin-top: 30px;
+        flex-basis: calc((100% - 90px) / 3); 
+        }
+        
+      }
+      
+      .exemples-link {
+        text-decoration: none;
+        margin: 0px;
+      }
+      
+      .exemple-text {
+
+        padding: 20px 24px;
+        border-bottom: 1px solid $border-color;
+        border-right: 1px solid $border-color;
+        border-left: 1px solid $border-color;
+      }
+      
+      .exemples-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: $text-color;
+      }
+      
+      
+      @media screen and (min-width:768px) and (max-width: 1199px) {
+        .type-for-tablet {
+            margin-bottom: 36px;
+        }
+      }
+      .exempel-type {
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: $second-color;
+      }
+      .exemples-hover:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+          1px 4px 6px rgba(0, 0, 0, 0.16);
+      }
+      
+      .exemples-hover:hover .exemples-product {
+        transform: translateY(0);
+      }
+      
+      img {
+        @media screen and (max-width: 767px) {
+            width: 450px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+            width: 354px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 380px;
+        }
+
+      }
+
+
+      .exempeles-img {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .exemples-product {
+        position: absolute;
+        top: 0;
+        left: 0;
+      
+        width: 100%;
+        height: 100%;
+        background: rgba(33, 150, 243, 0.9);
+      
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .exemples-product-text {
+        font-size: 18px;
+        line-height: 1.55;
+        letter-spacing: 0.03em;
+        color: $wait;
+      
+        padding: 24px 63px;
+      }
+      
     
 
 
