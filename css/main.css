@@ -393,14 +393,14 @@ section {
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/index/ad_baner/baner_480.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/ad_baner/baner_480.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/index/ad_baner/Header_img_1x_phone.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/index/ad_baner/Header_img_1x_phone.png");
   }
 }
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .baner .baner {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/index/ad_baner/baner_480_x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/ad_baner/baner_480_x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/index/ad_baner/Header_img_2x_phone.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/index/ad_baner/Header_img_2x_phone.png");
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1199px) {
@@ -409,23 +409,29 @@ section {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/index/ad_baner/baner_768.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/ad_baner/baner_768.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/index/ad_baner/Header_img_1x_tablet.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/index/ad_baner/Header_img_1x_tablet.png");
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 767px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 767px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 767px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .baner .baner {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/index/ad_baner/baner_768_x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/ad_baner/baner_768_x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/index/ad_baner/Header_img_2x_tablet.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/index/ad_baner/Header_img_2x_tablet.png");
   }
 }
 @media screen and (min-width: 1200px) {
   .baner {
     max-width: 1600px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/index/baner_svg.svg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/baner_svg.svg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/index/ad_baner/Header_Img_1x_desctop.png ");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/index/ad_baner/Header_Img_1x_desctop.png ");
     padding-top: 200px;
     padding-bottom: 200px;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .baner .baner {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/index/ad_baner/Header_2x_desctop_Img.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/index/ad_baner/Header_2x_desctop_Img.png");
   }
 }
 

@@ -14,7 +14,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/index/ad_baner/baner_480.png");
+      url("../../images/index/ad_baner/Header_img_1x_phone.png");
     // Правило для ретіни
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
@@ -25,7 +25,7 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url("../images/index/ad_baner/baner_480_x.png");
+          url("../../images/index/ad_baner/Header_img_2x_phone.png");
       }
     }
   }
@@ -41,7 +41,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/index/ad_baner/baner_768.png");
+      url("../../images/index/ad_baner/Header_img_1x_tablet.png");
     // Правило для ретіни
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
@@ -52,7 +52,7 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url("../images/index/ad_baner/baner_768_x.png");
+          url("../../images/index/ad_baner/Header_img_2x_tablet.png");
       }
     }
   }
@@ -64,10 +64,23 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/index/baner_svg.svg");
+      url("../../images/index/ad_baner/Header_Img_1x_desctop.png ");
     padding-top: 200px;
     padding-bottom: 200px;
   }
+  // retina
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .baner {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/index/ad_baner/Header_2x_desctop_Img.png");
+  }
+}
 }
 
 .baner-container {
